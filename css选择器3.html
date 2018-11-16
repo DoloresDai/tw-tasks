@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css选择器3</title>
+	<style type="text/css">
+		div[title] { color: red; }
+		div[title="demo"] { font-weight: bold; }
+		div[title*="demo"] { font-family: "黑体"; }
+		div[title|="zh"] {text-align: right;}
+	</style>
+</head>
+<body>
+<div title="demo">div1</div>
+<div title="demo-2">div2</div>
+<div title="demo-3">div3</div>
+<div title="zhang">div4</div>
+<div title="zh-ang">div5</div>
+<div title="zzh">div6</div>
+<div title="zh">div7</div>
+<div>div8</div>
+<div>div9</div>
+<div>div10</div>
+</body>
+</html>
