@@ -1,0 +1,12 @@
+/*第一种方法*/
+.parent {
+	display: flex;
+	justify-content: center;
+}
+/*第二种方法*/
+.parent {
+	display: flex;
+}
+.child {
+	margin: 0 auto;
+}
