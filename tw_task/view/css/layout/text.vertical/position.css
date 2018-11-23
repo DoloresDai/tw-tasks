@@ -1,0 +1,10 @@
+.parent {
+  position: relative;
+  background-color: green;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+/*浏览器不支持*/
