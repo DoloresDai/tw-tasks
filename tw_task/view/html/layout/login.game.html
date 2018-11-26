@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="..\..\css\layout\login.game.css"/>
+    <title>
+      login.game
+    </title>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <div>
+        <label for="username">
+          账号：
+        </label>
+        <input type="text" name="username" id="username" placeholder="请输入想注册的账号"/>
+      </div>
+      <div>
+        <label for="password">
+          密码：
+        </label>
+        <input type="text" name="password" id="password" placeholder="请设置您账号的登入密码"/>
+      </div>
+      <div>
+        <label for="password2">
+          重复密码：
+        </label>
+        <input type="text" name="code" id="code" placeholder="再次输入密码"/>
+      </div>
+      <div>
+        <label for="verification-code">
+          验证码:
+        </label>
+        <input type="text" name="verification-code" id="verification-code" placeholder="请输入六位验证码"/>
+      </div>
+      <div>
+        <label for="sex">
+          性别:
+        </label>
+        <input type="radio" name="sex"/>
+        男
+        <input type="radio" name="sex"/>
+        女
+      </div>
+      <div>
+        <label for="game">
+          玩过什么游戏：
+        </label>
+        <input type="checkbox" name="game"/>
+        英雄联盟
+        <input type="checkbox" name="game"/>
+        穿越火线
+        <input type="checkbox" name="game"/>
+        魔兽世界
+        <input type="checkbox" name="game"/>
+        守望先锋
+      </div>
+      <select>
+        <option value ="year">
+          年
+        </option>
+        <option value ="month">
+          月
+        </option>
+        <option value="day">
+          日
+        </option>
+      </select>
+      <p>
+        <button type="submit">
+          按钮
+        </button>
+        <button type="submit">
+          提交
+        </button>
+        <button type="submit">
+          重置
+        </button>
+      </p>
+    </form>
+  </body>
+</html>
