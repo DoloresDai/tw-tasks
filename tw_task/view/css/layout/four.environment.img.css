@@ -1,0 +1,31 @@
+* {
+  background: #C1FFC1;
+}
+p {
+  font-family:blackbody;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border: 20px solid #FFFAFA;
+  background-color: #FFFAFA;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+.fly {
+  float: left;
+  margin-left: 10px
+}
+.green {
+  position: absolute;
+  left: 400px;
+}
+.sky {
+  position: absolute;
+  left: 780px;
+}
+.flower {
+  position: absolute;
+  left: 1160px;
+}
