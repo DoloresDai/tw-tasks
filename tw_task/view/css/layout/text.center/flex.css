@@ -1,14 +1,14 @@
-/*第一种方法*/
+/*First way*/
 
 .parent {
   display: flex;
   justify-content: center;
 }
-/*第二种方法*/
+/*Second way*/
 
 .parent {
   display: flex;
 }
 .child {
-  margin: 0 auto;
+  margin: 0px auto;
 }
