@@ -1,11 +1,10 @@
 .container {
   border: solid black 1px;
   overflow: hidden;
-  /*消除浮动*/
   padding-left: 100px;
   padding-right: 100px;
   min-width: 300px;
-  /*当浏览器页面缩小到一定值时也能正常显示：mid-width=2*left+right*/
+  /*When the browser page is reduced to a certain value, it can also display normally.：mid-width=2*left+right*/
 }
 .main {
   float: left;
