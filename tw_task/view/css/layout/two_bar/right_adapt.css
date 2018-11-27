@@ -1,0 +1,13 @@
+    float: left;
+    width: 70%;
+    height: 550px;
+    background: #FFC125;
+    }
+    .right {
+      width: 30%;
+      height: 550px;
+      background: #8B0000;
+      position: absolute;
+      right: 0;
+      color: white;
+    }

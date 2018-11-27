@@ -1,0 +1,23 @@
+.code,.visitor {
+  background-color: #EBC79E;
+}
+
+div {
+  border-style: solid;
+  border-color: gray;
+}
+a {
+  color: blue;
+}
+div.code {
+  border-width: 1px 1px 0.5px 1px;
+}
+div .code-content {
+  border-width: 0.5px 1px 0.5px 1px;
+}
+div.visitor {
+  border-width: 0.5px 1px 0.5px 1px;
+}
+div.visitor-content {
+  border-width: 0.5px 1px 1px 1px;
+}

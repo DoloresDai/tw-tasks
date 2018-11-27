@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      credit card application
+    </title>
+    '
+    <style type="text/css">
+                label{
+               cursor: pointer;
+               display: inline-block;
+               text-align: left;
+               padding: 3px 6px;
+           }
+      </style>
+  </head>
+  <body>
+    <form action="/echo" method="post">
+      <p style="text-align: center;">
+        您的个人信息
+      </p>
+      <div>
+        <label for="last name">
+          姓
+        </label>
+        <input type="text" name="last name" id="name" placeholder="请输入申请人姓氏"/>
+        <label for="first name">
+          名
+        </label>
+        <input type="text" name="first name" id="first name" placeholder="请输入申请人名字"/>
+        <label for="name">
+          姓名拼音
+        </label>
+        <input type="text" name="name" id="name" placeholder="请输入姓名拼音"/>
+      </div>
+      <div>
+        <p>
+          出生日期
+          <input type="number" name="year" id="year"/>
+          <label for="year">
+            年
+          </label>
+          <input type="number" name="monthr" id="monthr"/>
+          <label for="monthr">
+            月
+          </label>
+          <input type="number" name="day" id="day"/>
+          <label for="day">
+            日
+          </label>
+        </p>
+      </div>
+      <div>
+        <label for="country">
+          国籍
+        </label>
+        <input type="text" name="country" id="country"/>
+      </div>
+      <div>
+        <label for="idcard">
+          证件类型
+        </label>
+        <input type="radio" name="idcard"/>
+        身份证
+        <input type="radio" name="idcard"/>
+        护照
+        <input type="radio" name="idcard"/>
+        军人身份证
+        <input type="radio" name="idcard"/>
+        武装警察身份证
+        <input type="radio" name="idcard"/>
+        港澳居民来往内地通行证（香港）
+        <input type="radio" name="idcard"/>
+        港澳居民来往内地通行证（澳门）
+        <input type="radio" name="idcard"/>
+        台湾居民来往大陆通行证
+      </div>
+      <div>
+        <label for="id number">
+          证件号码
+        </label>
+        <input type="number" name="id number" id="id number"/>
+      </div>
+      <div>
+        <label for="marriage">
+          婚姻状况
+        </label>
+        <input type="radio" name="marriage"/>
+        未婚
+        <input type="radio" name="marriage"/>
+        已婚
+        <input type="radio" name="marriage"/>
+        其他
+        <label for="education">
+          教育程度
+        </label>
+        <input type="radio" name="education" id="education"/>
+        研究生以上
+        <input type="radio" name="education" id="education"/>
+        大学本科
+        <input type="radio" name="education" id="education"/>
+        大学专科
+        <input type="radio" name="education" id="education"/>
+        高中及以下
+      </div>
+      <div>
+        <p>
+          住宅地址
+          <input type="text" name="provence" id="provence"/>
+          <label for="provence">
+            省/直辖市
+          </label>
+          <input type="text" name="city" id="city"/>
+          <label for="city">
+            市/区/县
+          </label>
+          <input type="text" name="door" id="door"/>
+          <label for="door">
+            街/小区/楼/门/室等
+          </label>
+        </p>
+      </div>
+      <div>
+        <label for="phone">
+          手机号码
+        </label>
+        <input type="number" name="phone" id="number"/>
+      </div>
+      <p style="text-align: center;">
+        您的职业信息
+      </p>
+      <div>
+        <label for="work">
+          单位名称
+        </label>
+        <input type="text" name="work" id="work"/>
+      </div>
+      <div>
+        <p>
+          单位地址
+          <input type="text" name="provence_2" id="provence_2"/>
+          <label for="provence_2">
+            省/直辖市
+          </label>
+          <input type="text" name="city_2" id="city_2"/>
+          <label for="city_2">
+            市/区/县
+          </label>
+          <input type="text" name="door_2" id="door_2"/>
+          <label for="door_2">
+            街/小区/楼/门/室等
+          </label>
+        </p>
+      </div>
+      <P>
+        单位类型
+        <select>
+          <option value ="manufacturing">
+            制造业
+          </option>
+          <option value ="business">
+            商贸
+          </option>
+          <option value="finance">
+            金融业
+          </option>
+          <option value ="energy">
+            能源
+          </option>
+          <option value ="IT">
+            IT
+          </option>
+          <option value="hotel">
+            酒店/旅游/餐饮
+          </option>
+          <option value ="public">
+            公共事业
+          </option>
+          <option value ="land">
+            地产/建筑
+          </option>
+          <option value="government">
+            政府/科研/教育
+          </option>
+          <option value ="transport">
+            运输/物流
+          </option>
+          <option value ="law">
+            法律
+          </option>
+          <option value="consult">
+            咨询
+          </option>
+          <option value ="service">
+            卫生/社保/福利
+          </option>
+          <option value ="entertainment">
+            文娱
+          </option>
+          <option value="media">
+            媒体/公关/出版
+          </option>
+          <option value="others">
+            其他
+          </option>
+        </select>
+        <label for="economic">
+          经济类型
+        </label>
+        <input type="radio" name="economic" id="economic"/>
+        政府/事业
+        <input type="radio" name="economic" id="economic"/>
+        国企
+        <input type="radio" name="economic" id="economic"/>
+        个体/自由职业
+        <input type="radio" name="economic" id="economic"/>
+        民营
+        <input type="radio" name="economic" id="economic"/>
+        股份制
+        <input type="radio" name="economic" id="economic"/>
+        外资
+      </P>
+      <div>
+        <label for="job">
+          现职已工作时间
+        </label>
+        <input type="number" name="job" id="job"/>
+      </div>
+      <div>
+        <label for="money">
+          年收入总额
+        </label>
+        <input type="number" name="money" id="money"/>
+        万元
+      </div>
+      <p style="text-align: center;">
+        <button type="submit"  >
+          提交
+        </button>
+      </p>
+    </form>
+  </body>
+</html>

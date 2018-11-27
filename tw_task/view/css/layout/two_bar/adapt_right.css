@@ -1,0 +1,14 @@
+.parent {
+  display: flex;
+  height: 100vh;
+}
+.right {
+  width: 100px;
+  background-color: #8B0000;
+  float: right;
+  color: white;
+}
+.left {
+  background-color: #FFC125;
+  flex: 1;
+}
