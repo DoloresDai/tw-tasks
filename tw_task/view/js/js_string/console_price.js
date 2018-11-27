@@ -1,6 +1,6 @@
 var money = '￥20';
+
 function getPrice(money) {
-	let price = money.slice(1,3) ;
-	return price;
+  return money.slice(1, 3);
 }
 console.log(getPrice(money));
