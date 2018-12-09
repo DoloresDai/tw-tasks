@@ -1,7 +1,5 @@
-function palindrome(message) {
-  var letters = message.split('');
-  var newMessage = letters.reverse().join('');
-  return newMessage == message;
+function isPalindrome(message) {
+    return message.split('').reverse().join('') === message;
 }
-palindrome('hello'); // should return false
-palindrome('abcba');
+isPalindrome('hello'); // should return false
+isPalindrome('abcba');
